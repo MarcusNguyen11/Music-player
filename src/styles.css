@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.music-player {
+    background-color: #e4c8e4;
+    height: 500px;
+    border-radius: 70px;
+    width: 300px;
+}
