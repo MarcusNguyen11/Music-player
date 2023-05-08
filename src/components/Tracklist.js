@@ -14,7 +14,7 @@ const TrackList = () => {
   return (
     <>
       <div className="display-title">
-        <marquee className="name-song">{currentTrackName}</marquee>
+        <div className="name-song">{currentTrackName}</div>
       </div>
       <div className="list-song">
         {trackList.map((track, index) => (
